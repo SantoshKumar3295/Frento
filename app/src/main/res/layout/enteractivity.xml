@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ROOM"
+        android:id="@+id/button4"
+        android:background="@color/buttoncolor"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/button7"
+        android:layout_alignStart="@+id/button7" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CLICK AND EARN"
+        android:id="@+id/button5"
+        android:layout_above="@+id/button6"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="125dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="POST ROOM"
+        android:id="@+id/button6"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="54dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FOOD"
+        android:id="@+id/button7"
+        android:layout_below="@+id/button4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="72dp" />
+</RelativeLayout>

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:fitsSystemWindows="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+android:background="#333333"
+android:theme="@style/upload"
+   >
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="0dp"
+    android:layout_weight="0.416"
+    android:background="#333333"
+    android:paddingTop="12dp"
+    android:paddingBottom="12dp"
+    >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/upload"
+        android:scaleType="centerInside"
+
+        android:layout_margin="3dp"
+
+        android:id="@+id/upload"
+
+
+
+        />
+</LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="0.7"
+    android:orientation="vertical"
+    android:layout_below="@+id/upload"
+    >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Select Image"
+        android:id="@+id/textView8"
+        android:textColor="@color/myaq"
+android:padding="21dp"
+
+        android:layout_weight="1"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+"
+        android:id="@+id/button3"
+        android:shadowColor="#787575"
+        android:background="@drawable/myb"
+android:layout_weight="1"
+        android:typeface="serif"
+        style="@style/AppTheme"
+        android:textColor="@color/mygrey"
+      android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:textSize="40dp"
+
+       />
+</LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Address "
+        android:id="@+id/textView9"
+        android:layout_marginBottom="55dp"
+        android:layout_above="@+id/submit"
+        android:layout_alignLeft="@+id/textView12"
+        android:layout_alignStart="@+id/textView12" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Price"
+        android:id="@+id/textView10"
+        android:layout_alignBottom="@+id/price"
+        android:layout_alignLeft="@+id/textView11"
+        android:layout_alignStart="@+id/textView11" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Mobile no"
+        android:id="@+id/textView11"
+        android:layout_marginBottom="28dp"
+        android:layout_above="@+id/type"
+        android:layout_alignLeft="@+id/textView12"
+        android:layout_alignStart="@+id/textView12" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Type"
+        android:id="@+id/textView12"
+        android:layout_marginBottom="34dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_above="@+id/add"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/price"
+        android:layout_marginBottom="25dp"
+        android:layout_above="@+id/mobile"
+        android:layout_alignLeft="@+id/button3"
+        android:layout_alignStart="@+id/button3" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:ems="10"
+        android:id="@+id/mobile"
+        android:layout_alignBottom="@+id/textView11"
+        android:layout_alignLeft="@+id/price"
+        android:layout_alignStart="@+id/price" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/type"
+        android:layout_alignBottom="@+id/textView12"
+        android:layout_alignLeft="@+id/mobile"
+        android:layout_alignStart="@+id/mobile"
+        android:layout_alignRight="@+id/mobile"
+        android:layout_alignEnd="@+id/mobile" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPostalAddress"
+        android:ems="10"
+        android:id="@+id/add"
+        android:layout_alignBottom="@+id/textView9"
+        android:layout_alignLeft="@+id/type"
+        android:layout_alignStart="@+id/type" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:id="@+id/submit"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="40dp"
+        android:shadowColor="#787575"
+        android:background="@drawable/myb"
+
+        android:typeface="serif"
+        style="@style/AppTheme"
+        android:textColor="@color/material_grey_850"
+        android:singleLine="false"
+
+
+        />
+</LinearLayout>
+
+</LinearLayout>

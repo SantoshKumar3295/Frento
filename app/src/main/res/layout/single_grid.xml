@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+
+<RelativeLayout  android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/uploadshadow"
+    android:padding="5px"
+
+
+    >
+
+
+    <ImageView
+android:src="@drawable/shop1"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:id="@+id/imageView3"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+      android:layout_gravity="right"
+       android:gravity="right"
+
+android:paddingLeft="6dp"
+        android:paddingRight="6dp"
+android:background="@color/mydgrey"
+        />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/imageView3"
+    android:orientation="horizontal"
+android:id="@+id/lin"
+
+
+
+    >
+
+    <TextView
+       android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Address  -"
+        android:id="@+id/textView"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Address  -"
+        android:id="@+id/add"
+        />
+</LinearLayout>
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/lin"
+    android:orientation="horizontal"
+
+
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mobile no  -"
+        android:id="@+id/textView13"
+        android:layout_alignBaseline="@+id/price"
+        android:layout_alignBottom="@+id/price"
+        android:layout_alignRight="@+id/textView"
+        android:layout_alignEnd="@+id/textView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="mobile no"
+        android:id="@+id/mobile"
+
+        />
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lin"
+        android:orientation="horizontal"
+android:gravity="right"
+
+
+        >
+
+
+
+
+
+
+
+</LinearLayout>
+<LinearLayout
+    android:layout_width="90dp"
+    android:layout_height="30dp"
+    android:orientation="vertical"
+    android:layout_alignBottom="@+id/imageView3"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:background="@color/colorAccent"
+    android:layout_margin="6dp"
+
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rs.7000"
+        android:textColor="@color/mydgrey"
+android:textSize="16dp"
+    android:layout_margin="6dp"
+        />
+</LinearLayout>
+</RelativeLayout>
+
+</FrameLayout>

@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">Flento</string>
+    <string name="facebook_app_id">1108925935796764</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="fb_login_protocol_scheme">fbAPP_ID</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main3">Main3Activity</string>
+    <string name="red">yo m red</string>
+    <string name="blue">yo m 2nd red</string>
+    <string name="orange">yo m 3rd red</string>
+    <string name="boy">yo m 3rd233</string>
+    <string name="all">yo m 3rsad33</string>
+
+    <string-array name="add">
+        <item>Awadhpuri,Bhopal</item>
+        <item>Piplani,behind Quality,Bhopal</item>
+        <item>Ayodhya Bypass,Raison road,Bhopal</item>
+        <item>Prabhat petrol pump,Bhopal</item>
+        <item>Anand Nagar,Raison road,Bhopal</item>
+        <item>Arera colony,Bhopal</item>
+        <item>MP nagar,Bhopal</item>
+        <item>Kasturba Nagar,Bhopal</item>
+        <item>New market,Bhopal</item>
+        <item>Saket nagar,Bhopal</item>
+
+
+    </string-array>
+    <string-array name="price">
+        <item>₹-7000</item>
+        <item>₹-6000</item>
+        <item>₹-8000</item>
+        <item>₹-5000</item>
+        <item>₹-4000</item>
+        <item>₹-9000</item>
+
+        <item>₹-3500</item>
+        <item>₹-5000</item>
+        <item>₹-4500</item>
+        <item>₹-6000</item>
+
+
+    </string-array>
+    <string-array name="mobile">
+        <item>+919713447231</item>
+        <item>+917713457381</item>
+        <item>+918713547331</item>
+        <item>+919923457442</item>
+        <item>+919613347232</item>
+        <item>+917823447331</item>
+
+        <item>+918813847381</item>
+        <item>+919993447999</item>
+        <item>+919613547871</item>
+        <item>+919793444567</item>
+
+
+    </string-array>
+    <string-array name="type">
+
+        <item>boy</item>
+        <item>boy</item>
+
+        <item>boy</item>
+
+        <item>girl</item>
+        <item>girl</item>
+        <item>girl</item>
+        <item>girl</item>
+        <item>office</item>
+        <item>office</item>
+
+
+        <item>shop</item>
+    </string-array>
+
+</resources>

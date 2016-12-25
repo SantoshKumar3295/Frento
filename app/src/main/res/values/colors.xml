@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="PrimaryColor">#438fcd</color>
+    <color name="PrimaryDarkColor">#1976D2</color>
+    <color name="indicator">#ecd95a</color>
+
+   <color name="ColorPrimary">#e62117</color>
+
+    <color name="ColorPrimaryDark">#c31c13</color>
+
+    <color name="tabsScrollColor">#8a140e</color>
+    <color name="colorPrimary">#ab47bc</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#ff4081</color>
+    <color name="Transcolor">#00ff4081</color>
+    <color name="wyt">#ffffff</color>
+    <color name="mygrey">#333333</color>
+    <color name="mydgrey">#252525</color>
+
+    <color name="myaq">#67c4a6</color>
+
+    <color name="buttoncolor">#71ff78</color>
+</resources>
